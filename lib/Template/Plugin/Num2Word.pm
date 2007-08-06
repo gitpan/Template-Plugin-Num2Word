@@ -9,7 +9,7 @@ use vars qw(@SCALAR_OPS);
 use Lingua::Num2Word;
 @SCALAR_OPS = qw(to_word);
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 sub to_word {
     my $str = shift;
@@ -25,8 +25,7 @@ __END__
 
 =head1 NAME
 
-Template::Plugin::Num2Word - [One line description of module's purpose here]
-
+Template::Plugin::Num2Word - Convert numbers to words in Template.
 
 =head1 VERSION
 

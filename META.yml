@@ -14,6 +14,7 @@ no_index:
     - inc
     - t
 requires: 
+  Lingua::EN::Numbers: 0
   Lingua::Num2Word: 0
   perl: 5.8.0
-version: 0.0.1
+version: 0.0.2
